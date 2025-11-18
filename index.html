@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Styling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="exrercise8.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="above us.html">Above Us</a>
+                    </li>
+                </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-3" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+    <form>
+        <div class="mb-3 mt-3">
+            <input style="margin-bottom: 10px;" type ="textbox" placeholder="Enter your name" class="form-control">
+            <input style="margin-bottom: 10px;" type ="textbox" placeholder="Enter your age" class="form-control">
+        </div>
+        <div class="mb-3 mt-3">
+            <label>Gender:</label><br>
+                <label>Male</label><input type ="radio" name="gender" value="male" class="form-check-input">
+                <label>Female</label><input type ="radio" name="gender" value="male" class="form-check-input"><hr>
+            <label>Favourite Food:</label><br>  
+                <label>Katsu</label><input type="checkbox" class="form-check-input">
+                <label>Steak</label><input type="checkbox" class="form-check-input">
+                <label>Ice Cream</label><input type="checkbox" class="form-check-input">
+                <label>Cheese Cupcakes</label><input type="checkbox" class="form-check-input"><hr>
+            <label>Birth Year:</label><br>
+            <select>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+            </select>
+        </div>
+        <div class="form-select mb-3">
+            <textarea cols="50" rows="15"></textarea>
+            <input type="submit" value="Collect" class="btn btn-success">
+            <input type="reset" value="Clear" class="btn btn-warning">
+        </div>
+        <div class="d-grid gap-3">
+            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+            <button type="button" class="btn btn-danger btn-block">Full-Width Button</button>
+        </div>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="yes">
+            <label class="form-check-label" for="check2">Option 1</label>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
